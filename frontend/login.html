@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just in Time - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <div class="login-banner">
+            <div class="banner-overlay">
+                <h2>Just in Time</h2>
+                <p>Soluções inteligentes para corte e gestão de MDF.</p>
+            </div>
+        </div>
+
+        <section class="login-box">
+
+            <h1>Just in Time</h1>
+            <p>Entre para acessar o sistema</p>
+
+            <form id="form-login">
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu email"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input
+                        type="password"
+                        id="senha"
+                        name="senha"
+                        placeholder="Digite sua senha"
+                        required
+                    >
+                </div>
+
+                <button
+                    type="submit"
+                    id="btn-entrar"
+                    class="btn-principal">
+                    Entrar
+                </button>
+
+                <p id="mensagem" class="mensagem"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
