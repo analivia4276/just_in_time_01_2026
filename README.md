@@ -76,7 +76,7 @@ database/script.sql
 A documentação dos requisitos, testes e ambiente está disponível no arquivo:
 
 ```text
-documentacao.md
+documentacao.docx
 ```
 
 ## Projeto
